@@ -14,6 +14,22 @@ Sentry.IO makes it extremely easy and effective to track errors. It provides a r
 - When a project is running in production, it is used for error tracking and performance monitoring.
 - The most ideal website loading time is 2 seconds. If our website's loading time is 3 seconds or more, customers may leave the application. we use the Sentry        application for monitoring.
 - Many companies, including GitHub, Disney, VMware, Slack, Microsoft, Monday.com, and Cloudflare, use Sentry
+- Trace issues across frontend, backend, and mobile with Distributed Tracing
+
+#### what is the performance Monitoring???
+User experiences a slow page load, rendering time, or other performance issue
+
+#### sentry's performance monitoring is built for the developer
+Automatically see critical issues and get alerted in slack,Jira etc. via intregration
+
+#### Monitor user impact with Metrics and Web vitals 
+   - LCP (Largest contentful paint) render time for largest image or text block in viewport
+   - TTBF (Time to first byte)time it taske browser to receive first byte of page content, indicates if there is an issue with the webServer
+   - FCP (first contentful paint) time for first content to render, measures perceived page load speed 
+
+#### Why Sentry is a must tool for complex ReactJS Applications
+Error identifying and fixing can be a pain when developing complex React apps, Using Sentry.IO, you can discover insights into your application in real-time, monitor it in real-time, and fix errors in real-time.
+
 
 
 
