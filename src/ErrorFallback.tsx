@@ -1,6 +1,6 @@
 import React from 'react';
 import * as Sentry from "@sentry/react";
-
+// type declaration
 type ErrorFallbackProps = {
   error: Error;
   resetError: () => void;
