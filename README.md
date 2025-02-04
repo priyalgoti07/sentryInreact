@@ -19,13 +19,13 @@ Sentry.IO makes it extremely easy and effective to track errors. It provides a r
 - Many companies, including GitHub, Disney, VMware, Slack, Microsoft, Monday.com, and Cloudflare, use Sentry
 - Trace issues across frontend, backend, and mobile with Distributed Tracing
 
-- what is the performance Monitoring???
+#### what is the performance Monitoring???
 User experiences a slow page load, rendering time, or other performance issue
 
-- sentry's performance monitoring is built for the developer
+#### sentry's performance monitoring is built for the developer
 Automatically see critical issues and get alerted in slack,Jira etc. via intregration
 
-- Why Sentry is a must tool for complex ReactJS Applications
+#### Why Sentry is a must tool for complex ReactJS Applications
 Error identifying and fixing can be a pain when developing complex React apps, Using Sentry.IO, you can discover insights into your application in real-time, monitor it in real-time, and fix errors in real-time.
 
 #### Monitor user impact with Metrics and Web vitals 
@@ -34,79 +34,4 @@ Error identifying and fixing can be a pain when developing complex React apps, U
    - FCP (first contentful paint) time for first content to render, measures perceived page load speed 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- [@ Sentry for React](https://docs.sentry.io/platforms/javascript/guides/react/)
