@@ -6,6 +6,7 @@ function App() {
 
   const [asyncError, setAsyncError] = useState(false)
 
+  
   if (triggerError) {
     throw new Error("This is a runtime error triggered in App component!")
   }
