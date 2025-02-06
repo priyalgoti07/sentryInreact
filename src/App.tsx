@@ -12,6 +12,7 @@ function App() {
   }
   ;
 
+  
   if (asyncError) {
     try {
       // Simulating an async error after 1 second
