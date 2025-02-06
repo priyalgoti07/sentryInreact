@@ -11,6 +11,7 @@ function App() {
     throw new Error("This is a runtime error triggered in App component!")
   }
   ;
+  
 
   if (asyncError) {
     try {
